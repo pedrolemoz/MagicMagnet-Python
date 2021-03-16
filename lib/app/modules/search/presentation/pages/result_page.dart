@@ -158,7 +158,7 @@ class _ResultPageState extends State<ResultPage> {
                                 .copyWith(fontWeight: FontWeight.bold),
                           ),
                           Text(
-                            '${searchController.magnetLinks.length} results has been found',
+                            '${searchController.magnetLinks.length} results have been found',
                             style: Theme.of(context).textTheme.subtitle2,
                           ),
                           SizedBox(height: 16),
